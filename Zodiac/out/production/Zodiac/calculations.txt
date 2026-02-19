@@ -1,0 +1,26 @@
+Class Calculate
+
+Needed inputs:
+- date and time from JTextFields,
+- orbital elements of the planet:
+  a = semi-major axis AU
+  e = eccentricity
+  i = inclination [rad]
+  omega = longitude of ascending node [rad]
+  w = argument of periapsis [rad]
+  M0 = mean anomaly at J2000  [rad]
+  P = orbital period [days]
+- earth's heliocentric coordinates
+
+Method logic - mathematical chain
+1. Calculate JD from date and time
+2. Calculate planet's mean anomaly M.
+3. Solve Kepler's equasion -> E (eccentric anomaly)
+4. Calculate true anomaly v and radius r.
+5. Compute orbital plane coordinates [xp, yp, zp].
+6. Rotate to heliocentric ecliptic [xh, yh, zh].
+7. Calculate Earth's heliocentric coordinates [xE, yE, zE].
+8. Subtract Earth's vector -> geocentric vector [xg, yg, xg].
+9. Calculate distance delta.
+10. Calculate ecliptic longitude lambda and latitude beta.
+11. Calculate right ascension alfa and declination beta.
