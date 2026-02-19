@@ -116,7 +116,7 @@ Additional reference:
 ## Output Example
 
 ```
-**Name: Nina
+Name: Nina
 Date: 1990-06-15
 Time: 08:30
 Place: Warsaw, Poland
@@ -132,5 +132,5 @@ Uranus: Capricorn 8°15'
 Neptune: Capricorn 13°49'
 Pluto: Scorpio 15°04'
 Moon: Gemini 22°32'
-Ascendant: Virgo 3°29'**
+Ascendant: Virgo 3°29'
 ```
